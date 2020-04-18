@@ -2,6 +2,8 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:todoapp/models/global.dart';
 
+import 'UI/Intray/intray_page.dart';
+
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
@@ -30,6 +32,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
+
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
@@ -54,8 +57,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ],
               indicatorSize: TabBarIndicatorSize.label,
               indicatorColor: Colors.transparent,
-              labelColor: darkGreyColor,
-              unselectedLabelColor: darkRedAccentColor,
+              labelColor: darkRedAccentColor,
+              unselectedLabelColor: Colors.grey,
             ),
           ),
           backgroundColor: Colors.white,
@@ -65,7 +68,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 children: [
                   Container(
                     color: darkGreyColor,
-                    child: Center(child: Text("Well,")),
+                    child: IntrayPage(),
                   ),
                   Container(
                     color: Colors.red,
@@ -113,3 +116,5 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 }
+
+

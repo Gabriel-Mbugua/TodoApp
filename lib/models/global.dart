@@ -5,5 +5,23 @@ Color darkGreyColor = Color(0xff212128);
 Color lightRedAccentColor = Color(0xffDC4F64);
 Color darkRedAccentColor = Color(0xffE33E57);
 
+TextStyle intrayTitleStyle = TextStyle(
+  fontFamily: 'Avenir',
+  fontWeight: FontWeight.bold,
+  color: darkGreyColor,
+  fontSize: 40,
+);
 
-TextStyle intrayTitleStyle = TextStyle(fontFamily: 'Avenir', fontWeight: FontWeight.bold, color: darkGreyColor, fontSize: 40);
+TextStyle darkTodoTitle = TextStyle(
+  fontFamily: 'Avenir',
+  fontWeight: FontWeight.bold,
+  color: darkGreyColor,
+  fontSize: 25,
+);
+
+TextStyle darkTodoSubtitle = TextStyle(
+  fontFamily: 'Avenir',
+  fontWeight: FontWeight.bold,
+  color: darkGreyColor,
+  fontSize: 18,
+);
