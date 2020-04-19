@@ -1,0 +1,18 @@
+#This is a microframework for Python
+flask==0.12.2
+#This is an extension for Flask that adds support for quickly building of REST APIs.
+flask_restful==0.3.6
+#This is an extension that provides support for writing external scripts in Flask.
+flask_script==2.0.6
+#This is an extension that handles SQLAlchemy database migrations for Flask applications using Alembic.
+flask_migrate==2.1.1
+#This is an ORM/ODM/framework-agnostic library for converting complex datatypes, such as objects, to and from native Python datatypes. We'll use this for validation. This is used to Serializing and Deserializing Objects.
+marshmallow==2.14.0
+#This is an extension for Flask that adds support for SQLAlchemy.
+flask_sqlalchemy==2.3.2
+#This is an ntegration layer for Flask and marshmallow (an object serialization/deserialization library) that adds additional features to marshmallow.
+flask_marshmallow==0.8.0
+#This adds additional features to marshmallow.
+marshmallow-sqlalchemy==0.13.2
+# This is a PostgreSQL adapter for the Python programming language.
+psycopg2==2.7.5
