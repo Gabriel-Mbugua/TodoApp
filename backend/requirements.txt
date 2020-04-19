@@ -1,5 +1,5 @@
 #This is a microframework for Python
-flask==0.12.2
+flask==1.0
 #This is an extension for Flask that adds support for quickly building of REST APIs.
 flask_restful==0.3.6
 #This is an extension that provides support for writing external scripts in Flask.
